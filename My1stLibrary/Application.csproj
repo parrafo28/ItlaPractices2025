@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\My12ndLibrary\Infraestructure.csproj" />
+    <ProjectReference Include="..\My3trLibrary\Domain.csproj" />
+  </ItemGroup>
+
+</Project>
